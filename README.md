@@ -24,8 +24,10 @@ To get started with this tool, follow the steps below:
 ### 1. **Clone the Repository**
 Clone the repository to your local machine using Git:
 
-```bash
+
 git clone https://github.com/<your-username>/nessus-report-downloader.git
+
+---
 
 2. Install Dependencies
 
