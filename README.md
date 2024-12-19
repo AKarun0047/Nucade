@@ -29,14 +29,14 @@ git clone https://github.com/<your-username>/nessus-report-downloader.git
 
 ---
 
-2. Install Dependencies
+###2. Install Dependencies
 
 Ensure you have Python 3.x installed, then install the required Python libraries using pip:
 
 cd nessus-report-downloader
 pip install -r requirements.txt
 
-3. Set Your Nessus API Keys
+###3. Set Your Nessus API Keys
 
 You'll need your Nessus API accessKey and secretKey. It's recommended to store them in environment variables for security:
 
@@ -58,30 +58,28 @@ Alternatively, you can modify the script to directly insert your keys (not recom
 
     Download & Filter: The script will export the selected scan(s) as CSV, download them with a progress bar, and filter the CSV file to retain only the essential columns.
 
-⚙️ Customization Options:
+###⚙️ Customization Options:
 
     You can easily modify the columns to filter in the filter_csv() function.
     To customize the report export format, update the payload in the export_scan_to_csv() function.
 
-🔒 Security:
+###🔒 Security:
 
 For enhanced security, avoid hardcoding your Nessus API keys in the script. Instead, use environment variables as shown earlier. This will help protect your keys from exposure, especially when sharing the code.
-🧑‍💻 Contributing:
+
+###🧑‍💻 Contributing:
 
 Feel free to fork this repo and contribute! If you have any bug fixes, suggestions, or improvements, please create a pull request. We'd love to hear from you!
-📜 License:
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-💬 Questions?:
 
 If you have any questions or issues, feel free to open an issue in the GitHub repository.
-👏 Acknowledgments:
+###👏 Acknowledgments:
 
     Special thanks to Nessus for providing the powerful vulnerability scanning tool.
     Thanks to requests and pandas for being essential libraries in this script.
     Thanks to colorama for bringing color to the terminal!
 
-🖼️ Screenshot:
+###🖼️ Screenshot:
 
 Here’s a sneak peek of how the script looks in action! 👇
 
